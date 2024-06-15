@@ -6,6 +6,7 @@
   margin-inline: auto;
   display: flex;
   padding-top: 5rem;
+  overflow: hidden;
 }
 .acc_one {
   width: 60%;
@@ -43,11 +44,12 @@
   padding: 10px;
 }
 .accordion_img_con {
-  height: 480px;
-  width: 480px;
+  height: 450px;
+  width: 450px;
   /* background-color: lightblue; */
   overflow: hidden;
   padding-top: 2rem;
+  /* display: none; */
 }
 .accordion_right_main_img {
   width: 100%;
@@ -62,16 +64,13 @@
     width: 100%;
   }
   .acc_one {
-    width: 100%;}
-  .accordion_img_con {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
   }
+
   .accordion_img_con {
-    height: 380px;
-    width: 380px;
+    height: 375px;
+    width: 375px;
     overflow: hidden;
-    padding: 1.5rem 0rem ;
+    padding: 1.5rem 0rem;
   }
 }

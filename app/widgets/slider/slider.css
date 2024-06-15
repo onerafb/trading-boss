@@ -7,6 +7,7 @@
   height: var(--height);
   overflow: hidden;
   mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+  overflow: hidden;
   /* padding-top: 5rem; */
 }
 

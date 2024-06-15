@@ -85,7 +85,7 @@ width: fit-content;
   color: #fff;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 5px;
 }
 
@@ -96,4 +96,4 @@ width: fit-content;
 ::-webkit-scrollbar-thumb {
   background-color: #4f4f4f;
   border-radius: 5px;
-}
+} */

@@ -6,6 +6,7 @@
   margin-inline: auto;
   display: flex;
   padding-top: 5rem;
+  overflow: hidden;
   /* background-color: rgb(172, 192, 250); */
 }
 .tell_con{

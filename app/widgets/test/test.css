@@ -1,60 +1,60 @@
 .test {
-    --max-width: 1210px;
-    --padding: 2rem;
-    min-height: 70vh;
-    width: min(var(--max-width), 100% - var(--padding));
-    margin-inline: auto;
-    padding-bottom: 2rem;
-  }
-  .test_p_one{
-    font-size: 16px;
-    text-transform: uppercase;
-    padding-bottom: 1rem;
-  }
-  .test_p_two{
-    font-size: var(--step-4);
-    width: 50%;
-    line-height: 1;
-    padding-bottom: 2rem;
-  }
-  .test_card_main_con{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-  }
-  .test_card_con{
-    min-height: 290px;
-    width: 100%;
-    max-width: 290px;
-    aspect-ratio: 1 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* background-color: rgb(197, 162, 232); */
-    border: 1px solid black;
-    padding: 1rem;
-  }
-  .test_p_three{
-    text-align: justify;
-    height: 70%;
-  }
-  .test_p_four{
-    padding-top: 1rem;
-    height: 20%;
-    
-  }
-  .test_star_con{
-    height: 10%;
-    padding-bottom: 2rem;
-  }
+  --max-width: 1210px;
+  --padding: 2rem;
+  min-height: 70vh;
+  width: min(var(--max-width), 100% - var(--padding));
+  margin-inline: auto;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+.test_p_one {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+.test_p_two {
+  font-size: var(--step-4);
+  width: 50%;
+  line-height: 1;
+  padding-bottom: 2rem;
+}
+.test_card_main_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.test_card_con {
+  min-height: 290px;
+  width: 100%;
+  max-width: 290px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: rgb(197, 162, 232); */
+  border: 1px solid black;
+  padding: 1rem;
+}
+.test_p_three {
+  text-align: justify;
+  height: 70%;
+}
+.test_p_four {
+  padding-top: 1rem;
+  height: 20%;
+}
+.test_star_con {
+  height: 10%;
+  padding-bottom: 2rem;
+}
 @media (max-width: 65em) {
-  .test_card_main_con{
+  .test_card_main_con {
     flex-wrap: wrap;
   }
-  .test_p_two{
+  .test_p_two {
     width: 100%;
     text-align: center;
   }
